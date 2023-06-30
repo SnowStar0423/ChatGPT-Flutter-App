@@ -44,13 +44,13 @@ The Flutter framework for making it easy to build beautiful and fast mobile apps
 
 ## TODO 
  
- *I may not continue do this, if you want to work on this project further, please keep in mind these bugs (updated 3/7/2023)*
+ *I may not continue do this, if you want to work on this project further, please keep in mind these bugs (updated 06/30/2023)*
 
 [ ] fix scroll down gestures to hide input keyboard
 
 [ ] when click send, messages can be pushed
 
-[ ] change UI settings (now it looks like andriod)
+[ ] change UI settings (now it looks like android)
 
 [ ] fix typing box height (now it's fixed size, and the line will stretch vertically)
 

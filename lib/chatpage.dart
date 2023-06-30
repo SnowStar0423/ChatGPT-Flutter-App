@@ -152,8 +152,7 @@ class _ChatPageState extends State<ChatPage> {
                     Message message = conversationProvider
                         .currentConversation.messages[index];
                     return Padding(
-                      padding: const EdgeInsets.symmetric(
-                          vertical: 8.0, horizontal: 16.0),
+                      padding: const EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
                       child: Row(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -176,7 +175,7 @@ class _ChatPageState extends State<ChatPage> {
                                     vertical: 8.0, horizontal: 16.0),
                                 decoration: BoxDecoration(
                                   color: message.senderId == userSender.id
-                                      ? Color(0xff55bb8e)
+                                      ? const Color(0xff55bb8e)
                                       : Colors.grey[200],
                                   borderRadius: BorderRadius.circular(16.0),
                                   boxShadow: [
@@ -225,7 +224,7 @@ class _ChatPageState extends State<ChatPage> {
             margin:
                 const EdgeInsets.symmetric(vertical: 16.0, horizontal: 16.0),
             padding:
-                const EdgeInsets.symmetric(vertical: 8.0, horizontal: 16.0),
+                const EdgeInsets.symmetric(vertical: 0.0, horizontal: 16.0),
             child: Row(
               children: [
                 Expanded(
