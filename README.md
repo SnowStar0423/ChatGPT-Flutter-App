@@ -1,15 +1,15 @@
 # Simple Flutter Version ChatGPT 
 
-This is a simple version of **chatgpt in flutter**, using your own API key. With this app, you can chat in app with chatgpt. I never learned flutter before, but with ChatGPT, I created this simple version in 2 days! You can build this too!
+This is a simple version of **ChatGPT in Flutter**, using your own API key. With this app, you can chat in app with ChatGPT. I never learned flutter before, but with ChatGPT, I created this simple version in 2 days! You can build this too!
 
-I implemented this for fun and improving my code skills, also other flutter beginners can start with my projects to build their ideas. There may be some bugs though, bare with me. But the data structure classes are delicatedly written! I've learned a lot during this simple development, the biggest lesson is:
+I implemented this for fun and improving my code skills, also other flutter beginners can start with my projects to build their ideas. There may be some bugs though, bare with me. But the data structure classes are delicately written! I've learned a lot during this simple development, the biggest lesson is:
 
 **Think before you code!**
 
 
 |  |  |  |
 | - | - | - |
-| ![img](images/screen1.png) | ![img](images/screen2.png) | ![img](images/screen3.png) |
+| ![img](images/Screenshot1.png) | ![img](images/Screenshot2.png) | ![img](images/Screenshot3.png) |
 
 
 ## Getting Started
