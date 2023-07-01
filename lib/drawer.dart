@@ -115,13 +115,12 @@ class MyDrawer extends StatelessWidget {
             ),
             // add a setting button at the end of the drawer
             Container(
-              padding: const EdgeInsets.symmetric(vertical: 16.0),
+              padding: const EdgeInsets.symmetric(vertical: 14.0, horizontal: 30),
               child: GestureDetector(
                 onTap: () {
                   showRenameDialog(context);
                 },
                 child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Icon(Icons.settings, color: Colors.grey[700], size: 20.0),
                     const SizedBox(width: 15.0),
@@ -138,13 +137,12 @@ class MyDrawer extends StatelessWidget {
               ),
             ),
             Container(
-              padding: const EdgeInsets.symmetric(vertical: 14.0),
+              padding: const EdgeInsets.symmetric(vertical: 14.0, horizontal: 30),
               child: GestureDetector(
                 onTap: () {
                   showProxyDialog(context);
                 },
                 child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Icon(Icons.settings, color: Colors.grey[700], size: 20.0),
                     const SizedBox(width: 15.0),
@@ -156,6 +154,7 @@ class MyDrawer extends StatelessWidget {
                         fontSize: 18.0,
                       ),
                     ),
+                    SizedBox(height: 50,)
                   ],
                 ),
               ),
