@@ -34,8 +34,8 @@ class _ChatPageState extends State<ChatPage> {
 
   Future<Message?> _sendMessage(List<Map<String, String>> messages) async {
     final url = Uri.parse('https://api.openai.com/v1/chat/completions');
-    final apiKey = Provider.of<ConversationProvider>(context, listen: false).yourapikey;
-    final proxy = Provider.of<ConversationProvider>(context, listen: false).yourproxy;
+    final apiKey = Provider.of<ConversationProvider>(context, listen: false).yourApiKey;
+    final proxy = Provider.of<ConversationProvider>(context, listen: false).yourProxy;
     final converter = JsonUtf8Encoder();
 
     // send all current conversation to OpenAI
@@ -239,7 +239,7 @@ class _ChatPageState extends State<ChatPage> {
                   onPressed: 
                   // listen to apikey to see if changed
                   Provider.of<ConversationProvider>(context, listen: true)
-                          .yourapikey == "YOUR_API_KEY"
+                          .yourApiKey == "YOUR_API_KEY"
                       ? () {
                         showRenameDialog(context);
                       }

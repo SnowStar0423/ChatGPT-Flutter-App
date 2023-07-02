@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'chatpage.dart';
+import 'chat_page.dart';
 import 'drawer.dart';
 import 'conversation_provider.dart';
-import 'popmenu.dart';
+import 'pop_menu.dart';
 
 void main() {
   runApp(

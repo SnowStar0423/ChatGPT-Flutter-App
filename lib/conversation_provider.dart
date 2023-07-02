@@ -13,8 +13,8 @@ class ConversationProvider extends ChangeNotifier {
       _conversations[_currentConversationIndex].title;
   int get currentConversationLength =>
       _conversations[_currentConversationIndex].messages.length;
-  String get yourapikey => apikey;
-  String get yourproxy => proxy;
+  String get yourApiKey => apikey;
+  String get yourProxy => proxy;
   Conversation get currentConversation =>
       _conversations[_currentConversationIndex];
   // get current conversation's messages format
@@ -56,12 +56,12 @@ class ConversationProvider extends ChangeNotifier {
   }
 
   // change api key
-  set yourapikey(String value) {
+  set yourApiKey(String value) {
     apikey = value;
     notifyListeners();
   }
 
-  set yourproxy(String value) {
+  set yourProxy(String value) {
     proxy = value;
     notifyListeners();
   }

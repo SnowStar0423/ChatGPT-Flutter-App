@@ -12,7 +12,7 @@ void showProxyDialog(BuildContext context) async {
         content: TextField(
           // display the current name of the conversation
           decoration: InputDecoration(
-            hintText: Provider.of<ConversationProvider>(context).yourproxy,
+            hintText: Provider.of<ConversationProvider>(context).yourProxy,
           ),
           onChanged: (value) {
             newProxy = value;
@@ -37,7 +37,7 @@ void showProxyDialog(BuildContext context) async {
                 Navigator.pop(context);
                 return;
               }
-              Provider.of<ConversationProvider>(context, listen: false).yourproxy = newProxy;
+              Provider.of<ConversationProvider>(context, listen: false).yourProxy = newProxy;
               Navigator.pop(context);
             },
           ),
@@ -58,7 +58,7 @@ void showRenameDialog(BuildContext context) async {
           content: TextField(
             // display the current name of the conversation
             decoration: InputDecoration(
-              hintText: Provider.of<ConversationProvider>(context).yourapikey,
+              hintText: Provider.of<ConversationProvider>(context).yourApiKey,
             ),
             onChanged: (value) {
               newName = value;
@@ -83,7 +83,7 @@ void showRenameDialog(BuildContext context) async {
                   Navigator.pop(context);
                   return;
                 }
-                Provider.of<ConversationProvider>(context, listen: false).yourapikey = newName;
+                Provider.of<ConversationProvider>(context, listen: false).yourApiKey = newName;
                 Navigator.pop(context);
               },
             ),

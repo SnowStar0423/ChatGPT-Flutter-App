@@ -80,7 +80,7 @@ class MyDrawer extends StatelessWidget {
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.start,
                               children: [
-                                // coversation icon
+                                // conversation icon
                                 Icon(
                                   Icons.person,
                                   color: conversationProvider
@@ -154,7 +154,7 @@ class MyDrawer extends StatelessWidget {
                         fontSize: 18.0,
                       ),
                     ),
-                    SizedBox(height: 50,)
+                    const SizedBox(height: 50,)
                   ],
                 ),
               ),
